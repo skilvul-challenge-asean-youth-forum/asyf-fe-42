@@ -98,3 +98,6 @@ Visual Studio Code
 - Project bisa dijalankan dengan menggunakan Live Server
 
 ## Demo App
+- [Production Build](https://challenge-asyf-fe42.netlify.app/)
+
+- [Development Build](https://asyf-fe42.netlify.app/pages/homepage.html)
