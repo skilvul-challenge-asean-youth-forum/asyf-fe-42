@@ -65,7 +65,7 @@ h4 {
   margin-bottom: 2rem;
 }
 
-form input[type="text"], form input[type="password"] {
+form input[type="text"], form input[type="password"], form input[type="email"] {
   display: block;
   width: 100%;
   box-sizing: border-box;
