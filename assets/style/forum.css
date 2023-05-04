@@ -5,51 +5,20 @@
   padding: 0;
   font-family: "IBM Plex Sans", sans-serif;
 }
-nav {
-  max-width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+
+.bg {
   background-color: #016241;
-  padding: 10px 60px;
 }
-
-.flex-row {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.navbar {
+  padding: 0;
 }
-
-ul {
-  display: flex;
-  list-style: none;
-  column-gap: 25px;
-  font-size: large;
+.navbar-toggler:focus {
+  box-shadow: none;
 }
-
-ul > li > a {
-  text-decoration: none;
-  color: #fff;
+nav > img {
+  width: 68px;
+  height: 68px;
 }
-
-ul > li > a:hover {
-  color: #558929;
-}
-.navbar-list-items {
-  display: flex;
-  column-gap: 8px;
-  padding-left: 120px;
-  font-weight: 500;
-}
-.navbar-user {
-  display: flex;
-  align-items: center;
-}
-.navbar-user > a {
-  color: #fff;
-  text-decoration: none;
-}
-
 main {
   padding: 30px 60px;
   max-width: 100%;
@@ -167,9 +136,17 @@ h5 {
   font-size: 16px;
 }
 
-
 .logo-homepage {
   width: 68px;
   height: 58px;
 }
 
+@media (max-width: 768px) {
+  .ul-bg {
+    background-color: #19a519;
+  }
+  nav > img {
+    width: 15%;
+    height: 15%;
+  }
+}
