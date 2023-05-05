@@ -59,8 +59,7 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 20px;
-  justify-content: center;
+  margin: 20px 0;
 }
 
 .grid-card {
@@ -68,25 +67,32 @@ main {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  max-width: 350px;
+  max-width: 380px;
   height: auto;
-  padding: 20px 0;
-  border-radius: 10px;
+  background-color: white;
+  border: 1px solid lightgray;
+  margin: 20px;
   transition-duration: 300ms;
   cursor: pointer;
+}
+.grid-card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: all 0.5s ease;
 }
 img {
   width: 100%;
 }
-
 .text-container {
   margin-top: 10px;
-  padding: 8px;
+  padding: 16px;
   text-align: justify;
 }
 .text-container > article > p {
   font-size: 14px;
   text-align: justify;
+}
+.text-container > article > a {
+  text-decoration: none;
 }
 footer {
   padding: 20px 60px;
@@ -155,5 +161,9 @@ h5 {
   }
   .forums-title-description {
     display: none;
+  }
+  .forums-main-title {
+    display: flex;
+    flex-direction: column;
   }
 }
