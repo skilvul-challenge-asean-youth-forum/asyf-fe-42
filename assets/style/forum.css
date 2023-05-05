@@ -95,60 +95,75 @@ img {
   text-decoration: none;
 }
 footer {
-  padding: 20px 60px;
   background-color: #016241;
 }
-.footer-grid {
+
+.footer-container {
+  padding: 40px 72px;
+  justify-content: center;
+}
+
+.footer-row {
   display: flex;
-  gap: 30px;
+  flex-wrap: wrap;
   justify-content: space-between;
-  color: #fff;
+}
+
+footer ul {
+  list-style: none;
+  text-decoration: none;
 }
 
 .footer-column1 {
   width: 25%;
+  padding-right: 40px;
+  float: left;
 }
 
-.footer-column {
-  max-width: 50%;
-  display: flex;
-  flex-direction: column;
-  float: right;
+.footer-column2 {
+  width: 25%;
+  text-align: right;
 }
 
-.footer-column > ul {
-  display: flex;
-  flex-direction: column;
-  text-decoration: underline;
-  align-items: center;
-  row-gap: 10px;
-}
-.footer-logo {
-  max-width: 70px;
-  max-height: 60px;
-}
-.footer-column > a {
-  color: #fff;
+.footer-row h4 {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  margin-bottom: 12px;
 }
 
-.footer-column > a:hover {
-  color: #558929;
+.footer-column1 img {
+  width: 88px;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  line-height: 2;
 }
 
 .footer-social {
-  margin-top: 10px;
-  font-size: 20px;
+  margin-top: 12px;
 }
 
-h5 {
+.footer-social i {
+  color: white;
+  font-size: 32px;
+  padding-right: 8px;
+}
+
+.copyright {
+  align-items: center;
   text-align: center;
-  color: #fff;
-  font-size: 16px;
+  color: white;
+  padding-bottom: 20px;
 }
 
-.logo-homepage {
-  width: 68px;
-  height: 58px;
+.footer-column1 h5 {
+  color: white;
+  font-weight: 400;
+  padding-bottom: 8px;
 }
 
 @media (max-width: 768px) {
@@ -165,5 +180,36 @@ h5 {
   .forums-main-title {
     display: flex;
     flex-direction: column;
+  }
+
+  .footer-container {
+    padding: 20px;
+  }
+
+  .footer-row {
+    justify-content: center;
+  }
+
+  .footer-column1, 
+  .footer-column2 {
+    width: 100%;
+    text-align: justify;
+    padding: 0;
+    float: none;
+    margin-bottom: 20px;
+  }
+
+  footer ul {
+    padding-left: 0rem;
+  }
+
+  .footer-column1 img {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+  
+  .footer-column1 h5 {
+    padding-bottom: 12px;
   }
 }
