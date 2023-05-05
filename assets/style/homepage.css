@@ -27,10 +27,13 @@ nav > img {
   padding: 0;
 }
 
-.navbar-toggler:focus {
-  box-shadow: none;
+.nav-link {
+  color: #fff;
 }
 
+.nav-link:hover {
+  color: #dff9ba;
+}
 
 .navbar-toggler:focus {
   box-shadow: none;

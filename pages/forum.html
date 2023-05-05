@@ -25,7 +25,8 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-md bg">
+    <nav class="navbar navbar-expand-md bg sticky-top">
+
       <img
         class="navbar-brand ms-4"
         src="https://aseanyouthforum.org/wp-content/uploads/2019/03/cropped-Logo-Asean-Youth-Forum-HR-01.png"
@@ -42,22 +43,16 @@
       <div class="collapse navbar-collapse me-lg-5 ul-bg" id="btn">
         <ul class="navbar-nav ms-sm-5">
           <li class="nav-item">
-            <a href="./homepage.html" class="nav-link mx-3 text-white fs-5"
-              >Home</a
-            >
+            <a href="./homepage.html" class="nav-link mx-3 fs-5">Home</a>
           </li>
           <li class="nav-item">
-            <a href="./homepage.html" class="nav-link mx-3 text-white fs-5"
-              >About</a
-            >
+            <a href="./homepage.html" class="nav-link mx-3 fs-5">About</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link mx-3 text-white fs-5">Articles</a>
+            <a href="#" class="nav-link mx-3 fs-5">Articles</a>
           </li>
           <li class="nav-item">
-            <a href="./forum.html" class="nav-link mx-3 text-white fs-5"
-              >Forums</a
-            >
+            <a href="./forum.html" class="nav-link mx-3 fs-5">Forums</a>
           </li>
         </ul>
         <a href="#" class="nav-link mx-3 text-white fs-5 ps-3 ms-auto"
@@ -80,126 +75,10 @@
         </section>
       </header>
       <section id="forum-list">
-        <section class="grid-card">
-          <div class="img-container">
-            <img
-              src="https://i.ytimg.com/vi/4e5Dcfyi5Wk/maxresdefault.jpg"
-              alt="ASEAN Youth Economic Forum 2023"
-            />
-          </div>
-          <div class="text-container">
-            <h3>ASEAN Youth Economic Forum 2023</h3>
-            <article>
-              <p>
-                “The first and largest ASEAN Youth Economic Forum in Southeast
-                Asia and supported by the AMEICC”
-              </p>
-              <a href="#"
-                >Learn More<span><i class="ri-arrow-right-line"></i></span>
-              </a>
-            </article>
-          </div>
-        </section>
-        <section class="grid-card">
-          <div class="img-container">
-            <img
-              src="https://i.ytimg.com/vi/4e5Dcfyi5Wk/maxresdefault.jpg"
-              alt="ASEAN Youth Economic Forum 2023"
-            />
-          </div>
-          <div class="text-container">
-            <h3>ASEAN Youth Economic Forum 2023</h3>
-            <article>
-              <p>
-                “The first and largest ASEAN Youth Economic Forum in Southeast
-                Asia and supported by the AMEICC”
-              </p>
-              <a href="#"
-                >Learn More<span><i class="ri-arrow-right-line"></i></span>
-              </a>
-            </article>
-          </div>
-        </section>
-        <section class="grid-card">
-          <div class="img-container">
-            <img
-              src="https://i.ytimg.com/vi/4e5Dcfyi5Wk/maxresdefault.jpg"
-              alt="ASEAN Youth Economic Forum 2023"
-            />
-          </div>
-          <div class="text-container">
-            <h3>ASEAN Youth Economic Forum 2023</h3>
-            <article>
-              <p>
-                “The first and largest ASEAN Youth Economic Forum in Southeast
-                Asia and supported by the AMEICC”
-              </p>
-              <a href="#"
-                >Learn More<span><i class="ri-arrow-right-line"></i></span>
-              </a>
-            </article>
-          </div>
-        </section>
-        <section class="grid-card">
-          <div class="img-container">
-            <img
-              src="https://i.ytimg.com/vi/4e5Dcfyi5Wk/maxresdefault.jpg"
-              alt="ASEAN Youth Economic Forum 2023"
-            />
-          </div>
-          <div class="text-container">
-            <h3>ASEAN Youth Economic Forum 2023</h3>
-            <article>
-              <p>
-                “The first and largest ASEAN Youth Economic Forum in Southeast
-                Asia and supported by the AMEICC”
-              </p>
-              <a href="#"
-                >Learn More<span><i class="ri-arrow-right-line"></i></span>
-              </a>
-            </article>
-          </div>
-        </section>
-        <section class="grid-card">
-          <div class="img-container">
-            <img
-              src="https://i.ytimg.com/vi/4e5Dcfyi5Wk/maxresdefault.jpg"
-              alt="ASEAN Youth Economic Forum 2023"
-            />
-          </div>
-          <div class="text-container">
-            <h3>ASEAN Youth Economic Forum 2023</h3>
-            <article>
-              <p>
-                “The first and largest ASEAN Youth Economic Forum in Southeast
-                Asia and supported by the AMEICC”
-              </p>
-              <a href="#"
-                >Learn More<span><i class="ri-arrow-right-line"></i></span>
-              </a>
-            </article>
-          </div>
-        </section>
-        <section class="grid-card">
-          <div class="img-container">
-            <img
-              src="https://i.ytimg.com/vi/4e5Dcfyi5Wk/maxresdefault.jpg"
-              alt="ASEAN Youth Economic Forum 2023"
-            />
-          </div>
-          <div class="text-container">
-            <h3>ASEAN Youth Economic Forum 2023</h3>
-            <article>
-              <p>
-                “The first and largest ASEAN Youth Economic Forum in Southeast
-                Asia and supported by the AMEICC”
-              </p>
-              <a href="#"
-                >Learn More<span><i class="ri-arrow-right-line"></i></span>
-              </a>
-            </article>
-          </div>
-        </section>
+        <section
+          id="card-list"
+          class="row gy-3 justify-content-center"
+        ></section>
       </section>
     </main>
     <!-- start footer -->
@@ -259,5 +138,6 @@
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
+    <script type="module" src="../assets/js/forum.js"></script>
   </body>
 </html>
