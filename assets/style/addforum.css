@@ -85,6 +85,7 @@ main .title {
 
 main .title h1 {
   font-size: 48px;
+  font-weight: 700;
 }
 
 main .desc {
@@ -221,7 +222,13 @@ footer a {
     background-color: #19a519;
   }
   nav > img {
-    width: 17%;
+    width: 15%;
     height: 15%;
+  }
+  main .title h1 {
+    font-size: 2rem;
+  }
+  main .desc {
+    font-size: 1.25rem;
   }
 }

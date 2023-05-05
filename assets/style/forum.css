@@ -45,6 +45,7 @@ main {
 }
 .forums-main-title > h1 {
   font-size: 40px;
+  font-weight: 700;
 }
 .forums-title-description {
   font-size: 20px;
@@ -54,8 +55,10 @@ main {
 
 #forum-list {
   margin-top: 30px;
-  display: grid;
-  grid-template-columns: auto auto auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   gap: 20px;
   justify-content: center;
 }
@@ -70,6 +73,7 @@ main {
   padding: 20px 0;
   border-radius: 10px;
   transition-duration: 300ms;
+  cursor: pointer;
 }
 img {
   width: 100%;
@@ -148,5 +152,8 @@ h5 {
   nav > img {
     width: 15%;
     height: 15%;
+  }
+  .forums-title-description {
+    display: none;
   }
 }
