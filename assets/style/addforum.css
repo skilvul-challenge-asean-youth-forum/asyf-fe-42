@@ -128,7 +128,13 @@ label {
   justify-content: center;
   align-items: center;
 }
+.nav-link {
+  color: #fff;
+}
 
+.nav-link:hover {
+  color: #dff9ba;
+}
 .add-button > a {
   text-decoration: none;
   padding: 12px 24px;

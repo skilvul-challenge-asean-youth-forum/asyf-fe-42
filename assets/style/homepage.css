@@ -26,6 +26,14 @@ nav > img {
 .navbar {
   padding: 0;
 }
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #dff9ba;
+}
+
 .navbar-toggler:focus {
   box-shadow: none;
 }
