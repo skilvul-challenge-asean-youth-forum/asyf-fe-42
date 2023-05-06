@@ -71,9 +71,8 @@ body {
   background-color: #6cb135;
   color: white;
 }
-/* end landing page style*/
 
-/*start login page style*/
+/*start login and Signup page style*/
 * {
   padding: 0;
   margin: 0;
@@ -128,7 +127,6 @@ h4 {
 form input[type="text"],
 form input[type="password"],
 form input[type="email"] {
-
   display: block;
   width: 100%;
   box-sizing: border-box;
@@ -172,7 +170,12 @@ label {
   color: grey;
   margin-top: 2rem;
 }
-/*end login page style*/
+.warning {
+  text-align: center;
+  color: red;
+  font-size: 14px;
+}
+/*end login & signup page style*/
 
 /*start responsive page style*/
 @media screen and (max-width: 1024px) {
@@ -380,7 +383,6 @@ h4 {
 form input[type="text"],
 form input[type="password"],
 form input[type="email"] {
-
   display: block;
   width: 100%;
   box-sizing: border-box;
@@ -442,7 +444,6 @@ a {
   /*start landing page style*/
   .mbl-title {
     font-size: x-large;
-
   }
 
   .content-container {
