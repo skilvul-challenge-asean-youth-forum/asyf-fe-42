@@ -123,7 +123,7 @@ label {
   font-size: 1rem;
 }
 
-.add-button {
+#add-button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -135,7 +135,7 @@ label {
 .nav-link:hover {
   color: #dff9ba;
 }
-.add-button > a {
+#add-button > a {
   text-decoration: none;
   padding: 12px 24px;
   margin-top: 16px;
@@ -147,7 +147,7 @@ label {
   border-radius: 4px;
 }
 
-.add-button > a:hover {
+#add-button > a:hover {
   background-color: #389e0d;
 }
 
@@ -199,7 +199,7 @@ footer {
     justify-content: center;
   }
 
-  .footer-column1, 
+  .footer-column1,
   .footer-column2 {
     width: 100%;
     text-align: justify;
@@ -217,7 +217,7 @@ footer {
     margin: 0 auto;
     padding-bottom: 20px;
   }
-  
+
   .footer-column1 h5 {
     padding-bottom: 12px;
   }
